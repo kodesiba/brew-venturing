@@ -7,6 +7,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, inspect
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 # create database connection and create files to be loaded into API endpoints
 Base = automap_base()
@@ -16,6 +17,7 @@ Breweries = json.loads(pd.read_sql("SELECT * FROM breweries ORDER BY ID",con=eng
 
 # create Flask app
 app = Flask(__name__)
+CORS(app)
 
 # create api endpoints
 @app.route("/")
