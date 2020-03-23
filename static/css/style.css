@@ -18,22 +18,18 @@ body,
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.legend .low {
-  color: #ec8a2e;
+.legend .brewpubs {
+  color: green;
 }
 
-.legend .empty {
-  color: #a0353a;
+.legend .micro-breweries {
+  color: red;
 }
 
-.legend .coming-soon {
-  color: #f4ba48;
+.legend .regional-breweries {
+  color: darkblue;
 }
 
-.legend .healthy {
-  color: #1b904f;
-}
-
-.legend .out-of-order {
-  color: #007dff;
+.legend .large-breweries {
+  color: purple;
 }
