@@ -14,7 +14,7 @@ def main():
 
 @app.route("/brewwerymap")
 def brewmap():
-    return render_template("index.html")
+    return render_template("brewerymap.html")
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=4000)
