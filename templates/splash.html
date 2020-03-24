@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Brew-Venturing!</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+          <nav class="navbar navbar-expand-md navbar-light navstyle">
+              <!-- navbar at top of page -->
+            <div class="container-fluid">
+                <div class="navbar-header justify-content-md-start">
+                    <a href="index.html"><span class="navbar-brand mb-0 text-dark"><h1><strong>North Carolina's Brewing History</strong></h1></span></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <!-- in case dropdown is needed -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Plots</strong></a>
+                            <div class="dropdown-menu navstyle" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item navstyle" href="#">Dropdown A</a>
+                                <a class="dropdown-item" href="#">Dropdown B</a>
+                                <a class="dropdown-item" href="#">Dropdown C</a>
+                                <a class="dropdown-item" href="#">Dropdown D</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong>Map</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong>Data</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong></strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        <!--main box for summary-->
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-lg-7 col-11 boxdesign">
+                    <h2 class="text-dark"><strong>Where is beer brewed in North Carolina?</strong></h2>
+                    <hr>
+                    <!-- The div that holds interactive map -->
+                    <a href="#">
+                        <div id="map-id">
+
+                        </div>
+                        <p> Data for this map was pulled from the <a href="#" target="_blank">[API name]</a> using city data from over 500 cities.</p>
+
+                    </a>
+                    
+                </div>
+                <div class="col-lg-4 col-11 boxdesign">
+                    <!-- interactive graphs -->
+                    <h3 class="text-dark"><strong>The Growth of Brewing in NC</strong></h3>
+                    <hr>
+                    <a href="#">
+                        <div class="gridimgfl" src="#" id="bar-chart"></div>
+                    </a>
+                    <a href="#">
+                        <div class="gridimgfr" src="#" id="line-chart"></div>
+                    </a>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- D3 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+        <!-- Leaflet JavaScript -->
+        <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+        crossorigin=""></script>
+
+        <!-- API Key -->
+        <script type="text/javascript" src="static/js/config.js"></script>
+        <!-- source of JavaScript code -->
+        <script type="text/javascript" src="static/js/logic.js"></script>
+    </body>
+</html>
