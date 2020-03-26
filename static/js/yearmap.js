@@ -60,9 +60,21 @@ info.onAdd = function() {
   var div = L.DomUtil.create("div", "legend");
   return div;
 };
-
 // Add the info legend to the map
 info.addTo(myMap);
+
+// Assign the range slider to a variable
+var rangeSlide =  $(".js-range-slider").ionRangeSlider({
+    type: "single",
+    min: 1990,
+    max: 2020,
+    from: 1990,
+    to: 2020,
+    grid: true,
+    grid_snap: true,
+    skin: "modern"
+});
+
 
 // Initialize an object containing icons for each layer group
 var icons = {
@@ -128,3 +140,4 @@ function updateLegend(typeCount) {
     "<p class='large-breweries'>Large Breweries: " + typeCount.LARGE + "</p>",
   ].join("");
 }
+

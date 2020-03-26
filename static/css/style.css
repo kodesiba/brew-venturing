@@ -1,9 +1,15 @@
 html,
 body,
 #map-id {
-  height: 100%;
+  height: 98%;
   padding: 0;
   margin: 0;
+}
+
+.rangeSlider {
+  height: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .legend {
