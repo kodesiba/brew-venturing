@@ -6,18 +6,6 @@ var light = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?ac
   accessToken: API_KEY
 })
 
-var dark = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
-  attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-  maxZoom: 18,
-  id: "mapbox.dark",
-  accessToken: API_KEY
-})
-// Create a baseMaps object to hold the lightmap layer
-var baseMaps = {
-  Light: light,
-  Dark: dark
-};
-
 // Initialize all of the LayerGroups we'll be using
 var layers = {
   BREWPUB: new L.LayerGroup(),
@@ -48,7 +36,7 @@ var overlays = {
 };
 
 // Create a layer control, pass in the baseMaps and overlays. Add the layer control to the map
-L.control.layers(baseMaps, overlays).addTo(myMap);
+L.control.layers(null, overlays).addTo(myMap);
 
 // Create a legend to display information about our map
 var info = L.control({
