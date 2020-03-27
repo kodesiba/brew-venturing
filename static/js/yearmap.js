@@ -98,7 +98,8 @@ d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
 
       // add marker to map
       newMarker.addTo(layers[type])
-      newMarker.bindPopup(dat.name)
+      var link = `<a href="${dat.website_url}" target="_blank">${dat.website_url}</a>`
+      newMarker.bindPopup(`${dat.name}<br>${link}`)
     }
     else {console.log(dat.name)}
   });
