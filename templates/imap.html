@@ -23,10 +23,12 @@
   <!-- Icons -->
   <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="static/css/leaflet.extra-markers.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
 
   <!-- Our CSS-->
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="static/css/mapstyle.css">
+  <link rel="stylesheet" href="static/css/splitmap.css">
 
 </head>
 
@@ -65,10 +67,19 @@
     </nav>
 
     <div id="map-id"></div></div>
+    <div class="rangeSlider">
+        <input type="text" class="js-range-slider" name="my_range" value="" />
+    </div>
     
     <!-- D3 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
 
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--Plugin JavaScript file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+  
     <!-- MomentJS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
 

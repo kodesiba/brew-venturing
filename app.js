@@ -5,9 +5,8 @@ const port = 4000
 app.use('/static', express.static(__dirname + '/static'))
 // main page
 app.get('/', (req, res) => res.sendFile(__dirname + "/templates/index.html"))
-//aps
+// map
 app.get('/imap', (req, res) => res.sendFile(__dirname + "/templates/imap.html"))
-app.get('/ymap', (req, res) => res.sendFile(__dirname + "/templates/ymap.html"))
 // data table 
 app.get('/dtable', (req, res) => res.sendFile(__dirname + "/templates/dtable.html"))
 // brewery selection page
