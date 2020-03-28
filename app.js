@@ -7,7 +7,7 @@ app.use('/static', express.static(__dirname + '/static'))
 app.get('/', (req, res) => res.sendFile(__dirname + "/templates/index.html"))
 //aps
 app.get('/imap', (req, res) => res.sendFile(__dirname + "/templates/imap.html"))
-app.get('/yearmap', (req, res) => res.sendFile(__dirname + "/templates/yearmap.html"))
+app.get('/ymap', (req, res) => res.sendFile(__dirname + "/templates/ymap.html"))
 // data table 
 app.get('/dtable', (req, res) => res.sendFile(__dirname + "/templates/dtable.html"))
 // brewery selection page
