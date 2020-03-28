@@ -6,12 +6,12 @@ app.use('/static', express.static(__dirname + '/static'))
 // main page
 app.get('/', (req, res) => res.sendFile(__dirname + "/templates/index.html"))
 //aps
-app.get('/brewerymap', (req, res) => res.sendFile(__dirname + "/templates/imap.html"))
+app.get('/imap', (req, res) => res.sendFile(__dirname + "/templates/imap.html"))
 app.get('/yearmap', (req, res) => res.sendFile(__dirname + "/templates/yearmap.html"))
 // data table 
-app.get('/data', (req, res) => res.sendFile(__dirname + "/templates/dtable.html"))
+app.get('/dtable', (req, res) => res.sendFile(__dirname + "/templates/dtable.html"))
 // brewery selection page
-app.get('/breweryselect', (req, res) => res.sendFile(__dirname + "/templates/selbrew.html"))
+app.get('/selbrew', (req, res) => res.sendFile(__dirname + "/templates/selbrew.html"))
 // history page
 app.get('/history', (req, res) => res.sendFile(__dirname + "/templates/history.html"))
 
