@@ -1,11 +1,17 @@
 html,
 body,
 #map-id {
-  height: 98%;
+  height: 95%;
   padding: 0;
   margin: 0;
-}
+  }
 
+.rangeSlider {
+  height:5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+  
 .legend {
   padding: 10px;
   font-family: Sanchez, serif;
