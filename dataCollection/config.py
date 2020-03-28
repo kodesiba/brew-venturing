@@ -1,0 +1,2 @@
+gkey = "AIzaSyBmM6lsbGVgMzAYGpC82Wv2uhpRm74oi7U"
+ykey = "zOYzJh5lJpyafXVuX2sot3M1oMqCGxVjoa-XQTYMqCxVusx_i9DH1vXF_A-PCgetyKq2NWIED1JVdJOmQj7kZVPYz4IAzUa6CF478hAmmuD-tnI7TOTUKUpUVnR6XnYx"
