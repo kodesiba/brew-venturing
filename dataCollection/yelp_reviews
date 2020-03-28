@@ -1,0 +1,271 @@
+,id,Review Count,Avg. Rating,Image URL,name,latitude,longitude,street,city
+0,5016,101.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/6k-JUmQgseRrOwZOoi94mQ/o.jpg,Bark Brewing Company,36.0620103554184,-79.8436043406271,3021 Spring Garden St,Greensboro
+1,5033,284.0,4.0,https://s3-media1.fl.yelpcdn.com/bphoto/LWlXdB6wDC9qJavOOixi4A/o.jpg,Blowing Rock Brewing Company,36.1327196,-81.677229,152 Sunset Dr,Blowing Rock
+2,5035,47.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/KlaFeNqPj97pgpconDdbIQ/o.jpg,Blue Ghost Brewing Company,35.4368388,-82.530580304217,125 Underwood Rd,Fletcher
+3,5105,92.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/hkI8OWW2YQRgYIg5wHKJkg/o.jpg,Flytrap Brewing,34.24034335,-77.9454578768839,319 Walnut St,Wilmington
+4,5121,5.0,5.0,https://s3-media1.fl.yelpcdn.com/bphoto/7-Yj76nhXQxXTq1FRIroFw/o.jpg,Ghost Harbor Brewing Company,36.3004222857143,-76.2187962244898,606 B E Colonial Ave,Elizabeth City
+5,5132,38.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/Sl9zuxQSSqGY2TbAVYiozA/o.jpg,Haw River Farmhouse Ales,35.946942,-79.31872,1713 Saxapahaw-Bethlehem Church Rd,Saxapahaw
+6,5135,42.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/F9fdxXBYmpm9_dR0yS2U-w/o.jpg,Hickory Brewery / American Honor Ale House and Brewery,35.7353351663058,-81.325497622729,883 Highland Ave SE,Hickory
+7,5162,119.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/Qa4y_c70U2xXT_gO6176CA/o.jpg,Lake Gaston Brewing Company,35.0528321020408,-78.8788145510204,124 Hay St,Fayetteville
+8,5227,115.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/81lEdTzk8f3hKEv-r3sQEQ/o.jpg,Pisgah Brewing Co,35.6079376,-82.35826,150 Eastside Dr,Black Mountain
+9,5255,22.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/XN6sDhMXNo5vpPUGhy1zFQ/o.jpg,Southern Range Brewing,34.9807363725295,-80.5509134608754,151 S Stewart St,Monroe
+10,5275,31.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/XzjSO8GWFg9HH2A5sL8b7w/o.jpg,Thirsty Souls Community Brewing,36.5008814,-80.6087621,238 Market St,Mount Airy
+11,5002,28.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/0Lgh01pT48SCQXoSaCMITQ/o.jpg,1718 Ocracoke Brewing,35.1071536760532,-75.9717606279572,1129 Irvin Garrish Hwy,Ocracoke
+12,5003,18.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/kNHvF5jol0ngI0adlTih5Q/o.jpg,217 Brew Works,35.7227625,-77.9120318,217 South St S,Wilson
+13,5009,169.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/0myRz8oeVG5bom04I9cW2g/o.jpg,Appalachian Mountain Brewery - Boone,36.2033414,-81.668461,163 Boone Creek Dr,Boone
+14,5012,390.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/IEMIKxFEcXzsBzsdGgf6HQ/o.jpg,Asheville Brewing Co,35.5917763,-82.5553054474744,77 Coxe Ave,Asheville
+15,5015,23.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/E9mkbKh2QpIxnLo-HWutug/o.jpg,Balsam Falls Brewing,35.3737065,-83.2218237,506 W Main St,Sylva
+16,5019,31.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/shdiciSMdTj6YVBSizxcwQ/o.jpg,BDD Brewing Company,35.958026,-77.8020826666667,1147 Falls Rd Ste 107,Rocky Mount
+17,5021,59.0,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/fdAzApq-UXzE-ms85e86ng/o.jpg,BearWaters Brewing Co,35.53137,-82.843001,101 Park St,Canton
+18,5024,283.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/d3Jk7tHFhNGl8vWVLHj9vg/o.jpg,Ben's Tune-Up / Ben's Beer,35.5912756,-82.5557931,195 Hilliard Ave,Asheville
+19,5025,451.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/NOd_SrUTRHf70G1vcIN37w/o.jpg,Bhramari Brewhouse,35.5916676262246,-82.55191879386,101 S Lexington Ave,Asheville
+20,5027,29.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/HEcBpO6QNpqsAyXkK2fznw/o.jpg,Bill's Brewing Co.,34.242224,-77.892361,4238 Market St.,Wilmington
+21,5028,29.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/HEcBpO6QNpqsAyXkK2fznw/o.jpg,Bill's Front Porch Pub and Brewery,34.242224,-77.892361,4238 Market St,Wilmington
+22,5034,87.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/ZrYmAMPvmlVYDbbDJv5VMg/o.jpg,Blue Blaze Brewing,35.2413880896314,-80.8671084275996,528 S Turner Ave,Charlotte
+23,5038,52.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/uv9rDxvYM5PL7BxOttxfVg/o.jpg,Bold Missy Brewery,35.2496085155633,-80.7964289950614,610 Anderson St,Charlotte
+24,5040,151.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/m1MGFbVjHaMRi-XcUgxahw/o.jpg,Bond Brothers Beer Company,35.78798475,-78.7779744445373,202 E Cedar St,Cary
+25,5045,66.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/p91nz3VeL6-VEtYJCzkG6w/o.jpg,Boylan Bridge Brewpub,35.778465,-78.649139,201 S BOYLAN AVE,Raleigh
+26,5049,13.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/UOgnS41Z79JqZWz1TqeosQ/o.jpg,Brewery Bhavana,35.7778629763218,-78.6366937955029,218 S Blount St,Raleigh
+27,5068,427.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/f3FU7di8V1fj-YMLHMkHDQ/o.jpg,Burial Beer Co,35.5879562,-82.5537906230192,40 Collier Ave,Asheville
+28,5071,215.0,3.5,https://s3-media3.fl.yelpcdn.com/bphoto/6nYBP5Y6d80YMJ5O8S6ejA/o.jpg,Carolina Brewery - Chapel Hill,35.9106269,-79.0627304,460 W Franklin St,Chapel Hill
+29,5072,117.0,3.0,https://s3-media1.fl.yelpcdn.com/bphoto/gewMwJ2HMwlaZbfgc8r5AA/o.jpg,Carolina Brewery - Pittsboro,35.7438093,-79.1652429,120 Lowes Dr Ste 100,Pittsboro
+30,5073,30.0,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/TGJs7CBtVw9L7wcNPwT1ZA/o.jpg,Carolina Brewing Co,35.6561051,-78.85444105,140 Thomas Mill Rd,Holly Springs
+31,5074,31.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/3iuZwC0VtdhrPViryJ83ug/o.jpg,Catawba Brewing Co,35.7447193415562,-81.6854369458732,212 S Green St,Morganton
+32,5077,20.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/PgPtHp2wlvB0uDETUh9Z5Q/o.jpg,Cavendish Brewing Company,35.2657750702449,-81.1874122346736,207 N Chester St,Gastonia
+33,5084,179.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/agXlNCso--O5sSFxi3qRtw/o.jpg,Crank Arm Brewing Co,35.7756043,-78.64405,319 W Davie St,Raleigh
+34,5098,40.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/VLLWa42Q-CqkOEZzu-fPZQ/o.jpg,Edward Teach Brewing,34.242576,-77.945422,604 N 4th St,Wilmington
+35,5101,28.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/hwPPMwuB6dcCn5SVLbGwzA/o.jpg,Fainting Goat Brewing Company,35.5812855,-78.8000193260112,330 S Main St,Fuquay Varina
+36,5109,460.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/s5ji4RGgz2E6U4ZtslgoyA/o.jpg,Foothills Brewing Co Brewpub,36.0976512040816,-80.250852122449,638 W 4th St,Winston Salem
+37,5112,46.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/7S4RH-vKrmweqpsASW-S7w/o.jpg,Four Saints Brewing,35.7036855714286,-79.8144777142857,218 S Fayetteville St,Asheboro
+38,5117,748.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/ian44X0K1_ICfdYvehS97Q/o.jpg,Front Street Brewery,34.2357825,-77.9488688333333,9 N Front St,Wilmington
+39,5118,432.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/7yf61nOBKt26dRZY9E34Hw/o.jpg,Fullsteam Brewery,36.00310675,-78.8995943502541,726 Rigsbee Ave,Durham
+40,5119,8.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/dnNLcRSdCDtsC2AzRWvDsw/o.jpg,Funguys Brewery,35.8130982588262,-78.6251336914828,2408 Paula St,Raleigh
+41,5123,11.0,3.5,https://s3-media4.fl.yelpcdn.com/bphoto/nFs2f-Z2MPYjZoVHImS4sQ/o.jpg,Gibb's Hundred Brewing Company,36.101006,-79.783217,504 State St,Greensboro
+42,5128,187.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/9Yv7jymLznyImlLL3GVgOg/o.jpg,Green Man Brewing Co,35.5886248998363,-82.5536715280212,27 Buxton Ave,Asheville
+43,5134,677.0,3.5,https://s3-media3.fl.yelpcdn.com/bphoto/LNqBgeqVO47q7S-tV90lBw/o.jpg,Heist Brewery,35.2451927959184,-80.8090455102041,2909 N Davidson St,Charlotte
+44,5141,193.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/6dx-MGAj6HgXPFbkxdl0sQ/o.jpg,Hi-Wire Brewing South Slope Specialty Brewery,35.5912314973118,-82.5560374689874,197 Hilliard Ave,Asheville
+45,5147,21.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/nTywbRNZyvF0zbFrws4g7g/o.jpg,Hugger Mugger Brewing Company,35.4789028571429,-79.1789631428571,229 Wicker St,Sanford
+46,5148,70.0,3.0,https://s3-media3.fl.yelpcdn.com/bphoto/SN2wPEb4yDnAk-dxRaHOCQ/o.jpg,Huske Hardware House Brewing Co,35.0539305102041,-78.8824913061224,405 Hay St,Fayetteville
+47,5149,407.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/aBhE9FlDyO1M4S_H9rNwww/o.jpg,Hyde Brewing,35.2008341673193,-80.8691060198553,2911 Griffith St,Charlotte
+48,5151,23.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/E9mkbKh2QpIxnLo-HWutug/o.jpg,Innovation Brewing,35.3736192260195,-83.2220858919431,414 W Main St,Sylva
+49,5152,78.0,3.0,https://s3-media4.fl.yelpcdn.com/bphoto/lzkLq9DAmu6xiTah639skw/o.jpg,Ironclad Brewery,34.2367162857143,-77.9476721428571,115 N 2nd St,Wilmington
+50,5158,9.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/d4I7qkHjZFQNip0ORJxsZQ/o.jpg,Kernersville Brewing Company,36.1219160510204,-80.0718157755102,210 N Main St,Kernersville
+51,5160,43.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/FLSqSy85rMeO4nOE-bnpKQ/o.jpg,King Canary Brewing Company,35.5706022,-80.8683812,562 Williamson Rd,Mooresville
+52,5164,145.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/SKSvoT5gRWAUTJBx9qYoRA/o.jpg,Legion Brewing Company,35.2187007346939,-80.8132231632653,1906 Commonwealth Ave,Charlotte
+53,5165,139.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/e1DZ5s7SCmJRGoN_1QcaSA/o.jpg,Lenny Boy Brewing Co,35.20146285,-80.8736241159645,3000 S Tryon St,Charlotte
+54,5166,52.0,3.5,https://s3-media3.fl.yelpcdn.com/bphoto/xzip7RF3vglTp7oUh1LpOQ/o.jpg,Lexington Avenue Brewery - The LAB,35.5961485,-82.5532489,39 N Lexington Ave,Asheville
+55,5168,25.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/GEFifVjz6_pNBgYVRO4XMg/o.jpg,Little Brother Brewing,36.0686165,-79.7907703,348 S Elm St,Greensboro
+56,5170,8.0,5.0,https://s3-media1.fl.yelpcdn.com/bphoto/CMWcpugQS0wxIUAIEz4RMQ/o.jpg,Loe's Brewing Company,35.91276115,-81.5423534777728,1048 Harper Ave NW,Lenoir
+57,5171,117.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/jJle6MeJv1CZYPoPn2VXhw/o.jpg,Lonerider Brewing Co,35.90357415,-78.762543949428,8816 Gulf Ct Ste 100,Raleigh
+58,5172,60.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/jx2Lcmj_uJn8VRHLg_E15A/o.jpg,Lookout Brewing Company,35.619217,-82.3179459321174,103 S Ridgeway Ave,Black Mountain
+59,5173,146.0,3.5,https://s3-media3.fl.yelpcdn.com/bphoto/j5bJtKReMScU4Ag1952oOQ/o.jpg,Lost Colony Brewery and Cafe,35.90949405,-75.6695447386708,208 Queen Elizabeth Ave,Manteo
+60,5191,36.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/gUC7mR6rGrkywuBxoavWCQ/o.jpg,Mountain Layers Brewing Company,35.428795,-83.446029,90 Everett Street,Bryson City
+61,5193,128.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/9pOXJgBJxYZytn6S2Lk2EQ/o.jpg,Nantahala Brewing Co,35.4311525,-83.446278,61 Depot Street,Bryson City
+62,5198,33.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/U8xrIVOFpOs2QJvuAn0arw/o.jpg,Neuse River Brewing Company,35.8045083014503,-78.6334520510561,518 Pershing Rd,Raleigh
+63,5204,9.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/UlXrziXCID6IWJKV6sHntQ/o.jpg,New Village Brewery and Taproom,35.0292106726028,-76.6947225721578,702 Broad St,Oriental
+64,5206,33.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/U8xrIVOFpOs2QJvuAn0arw/o.jpg,Nickelpoint Brewing Co,35.8045807951683,-78.6336946752982,506 Pershing Rd,Raleigh
+65,5219,719.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/kRhkdl3c95JTlYSdgurOPg/o.jpg,Outer Banks Brewing Station,36.00947755,-75.6592523146661,600 S Croatan Hwy,Kill Devil Hills
+66,5223,57.0,4.0,https://s3-media1.fl.yelpcdn.com/bphoto/Ve8Y5MVnmTb0ZUWu7hPd_A/o.jpg,Pig Pounder Brewery,36.084466,-79.804196,1107 Grecade St,Greensboro
+67,5228,29.0,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/6fWTElrOIfOpOsK8_b2pRQ/o.jpg,Pitt Street Brewing Company,35.6095882954837,-77.3769482237884,630 S Pitt St,Greenville
+68,5234,23.0,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/NucEaS3SSWpATOHjzKuBtA/o.jpg,Raleigh Brewing Company,35.7931167,-78.6875149,3709 Neil St,Raleigh
+69,5235,12.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/0n20jp45Jn0dnHiJ5j03UA/o.jpg,Red Hill Brewing Co,35.41030435,-80.5806658,21 Union St S,Concord
+70,5238,127.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/dpSD88DGHS36z_m0l83voQ/o.jpg,Resident Culture Brewing Company LLC,35.2199558631579,-80.8054236526316,2101 Central Ave,Charlotte
+71,5243,108.0,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/DMvkxG997e9hweP0hMY-VA/o.jpg,Sanctuary Brewing Company,35.3145325918367,-82.458814122449,147 1st Ave E,Hendersonville
+72,5245,26.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/CGKhT1gWz0c5DMQ3eVj_OA/o.jpg,Satulah Mountain Brewing Co,35.054006216911,-83.1955395142336,454 Carolina Way,Highlands
+73,5253,42.0,4.0,https://s3-media1.fl.yelpcdn.com/bphoto/GbNdCmHf682wnwjNya1emA/o.jpg,Southern Peak Brewery,35.7461806,-78.8439995,950 Windy Rd Ste 100,Apex
+74,5266,41.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/RGEJ07llUwPWYIehI-yw1A/o.jpg,The Dreamchaser's Brewery,34.9252405714286,-80.7434991428571,115 E North Main St,Waxhaw
+75,5270,577.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/lbNgRjneidgzyUQ5DgX4Uw/o.jpg,The Olde Mecklenburg Brewery,35.18741705,-80.8819534530266,4150 Yancey Rd,Charlotte
+76,5277,142.0,4.0,https://s3-media1.fl.yelpcdn.com/bphoto/H-5bgFxcs3dAghFoEF_3iA/o.jpg,Tight Lines Pub,34.7210745384615,-76.7116896153846,709 Arendell St,Morehead City
+77,5278,523.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/sMTKuWe47cr-ywyUgWGyzA/o.jpg,Tobacco Road Brewery,35.7826975306122,-78.6459896530612,505 W Jones St,Raleigh
+78,5282,174.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/y6wyVM9O58FdMiCReONqVg/o.jpg,Triple C Brewing,35.20109925,-80.8695657952456,2900 Griffith St,Charlotte
+79,5285,65.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/TMHxKIm2LsjP5iT9OKrCXw/o.jpg,Trophy Brewing Company,35.7613626230434,-78.657447135714,656 Maywood Ave,Raleigh
+80,5288,156.0,4.0,https://s3-media1.fl.yelpcdn.com/bphoto/HkBCyObkVp_pJacMJjn5zw/o.jpg,Twin Leaf Brewery,35.58942485,-82.5545418535317,144 Coxe Ave,Asheville
+81,5289,162.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/tgpzVfT1wv_4hscUmJVe8A/o.jpg,Unknown Brewing Company,35.2205129,-80.8575419035654,1327 S Mint St,Charlotte
+82,5294,55.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/YFPKkPTCUwMYYmyl-sJl-Q/o.jpg,Vecino Brewing,35.9100127,-79.0689722,300 E Main St,Carrboro
+83,5296,60.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/FNdP_CJE3KYvxaj1xNsFrg/o.jpg,Waterline Brewing Co.,34.2260974602254,-77.9488406652162,721 Surrey St,Wilmington
+84,5298,321.0,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/t1hUbyirwcORwMAPNhjwtg/o.jpg,Wedge Brewing Co,35.5865571,-82.5665920052359,37 Paynes Way Ste 100,Asheville
+85,5302,31.0,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/XzjSO8GWFg9HH2A5sL8b7w/o.jpg,White Elephant Beer Company,36.5006581,-80.6090865,225 Market St,Mount Airy
+86,5303,136.0,4.0,https://s3-media4.fl.yelpcdn.com/bphoto/1vuYyf1-6xqVxs8JG5TNMg/o.jpg,White Labs Kitchen and Tap,35.5911334,-82.5490695,172 S Charlotte St,Asheville
+87,5310,75.0,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/CFEngHeqZw6-FlRiDaOOiA/o.jpg,Wilmington Brewing Company,34.2213165,-77.8868023066094,824 S Kerr Ave,Wilmington
+88,5315,11.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/96K7YVh384hFsc8oS4Pe-w/o.jpg,Yellow Sun Brewing Company,35.3666796,-81.9581017,127 Trade St,Rutherfordton
+89,5064,87.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/khJfsU1MX21riOLO0K2zqA/o.jpg,Brown Truck Brewery,35.9709266,-80.0158688027711,1234 N Main St,High Point
+90,5106,4.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/RHlalcc7q62y4aj4CqQvrw/o.jpg,Fonta Flora Brewery,35.7476204,-81.6909377667023,317 N Green St,Morganton
+91,5156,40.0,4.5,https://s3-media3.fl.yelpcdn.com/bphoto/0dCNreVUsQUAnMgJtChTmQ/o.jpg,Jordan Lake Brewing Co,35.7902230560576,-78.7753789727503,320 E Durham Rd,Cary
+92,5195,310.0,3.5,https://s3-media3.fl.yelpcdn.com/bphoto/B8JHglVZd8Iod2L-GWOz_Q/o.jpg,Natty Greene's Pub & Brewing Co,36.0686458,-79.7903852,345 S Elm St,Greensboro
+93,5205,45.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/U7aYN4djMCRl2DfScC0ZzQ/o.jpg,Newgrass Brewing Company,35.2906197777778,-81.5403575555556,213 S Lafayette St,Shelby
+94,5273,328.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/29iEafmSzh3x6ZQaV-rdHQ/o.jpg,Thirsty Monk Brewery,35.59410425,-82.5553147520814,92 Patton Ave,Asheville
+95,5283,20.0,4.0,https://s3-media1.fl.yelpcdn.com/bphoto/SgzAeJEe4o_cGDpP9sULFg/o.jpg,Triskelion Brewing Company,35.3206001746298,-82.4578969903109,340 7th Avenue East,Hendersonville
+96,5293,112.0,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/p2CiNaAMx3DWKH91z3H63A/o.jpg,Valley River Brewery & Eatery,35.0889040369639,-84.0352081706441,71 Tennessee St,Murphy
+97,5304,87.0,4.0,https://s3-media2.fl.yelpcdn.com/bphoto/Unoog8rgnDZcO9AqvXBn4A/o.jpg,White Street Brewing Company,35.9774896,-78.5100617,218 S White St,Wake Forest
+98,5306,1976.0,4.0,https://s3-media3.fl.yelpcdn.com/bphoto/4wWB75DBq3S5Pu6W-Ifl0w/o.jpg,Wicked Weed Brewing,35.5916712,-82.5510683176403,91 Biltmore Ave,Asheville
+99,5067,,,,Bull Durham Beer Co,35.9915653,-78.90481567784,409 Blackwell St,Durham
+100,5090,,,,Dirtbag Ales Brewery and Taproom,34.9939752576824,-78.9220969691311,3623 Legion Rd,Hope Mills
+101,5099,,,,Eleven Lakes Brewing Company,35.4540068565198,-80.8605492789893,10228 Bailey Rd Ste 201,Cornelius
+102,5177,,,,Lynnwood Brewing Concern,35.8706036775912,-78.7162398859078,4821 Grove Barton Rd,Raleigh
+103,5181,,,,Mash House Restaurant & Brewery,35.0746817120553,-78.956548307397,4150 Sycamore Dairy Rd,Fayetteville
+104,5188,,,,Morgan Ridge Railwalk Brewery & Eatery,35.6692005139709,-80.4651030558603,421 N Lee St,Salisbury
+105,5217,,,,Oskar Blues Brewery - Brevard,35.2536956,-82.7069595,342 Mountain Industrial Dr,Brevard
+106,5229,,,,Ponysaurus Brewing Company,35.990086244898,-78.8939992244898,219 Hood St,Durham
+107,5260,,,,Sugar Creek Brewing Co.,35.1857169251298,-80.8804506495102,215 Southside Dr,Charlotte
+108,5287,,,,Twenty-Six Acres Brewing Company,35.3861774847151,-80.7219270261999,7285 Westwinds Blvd NW,Concord
+109,5309,,,,Wicked Weed Funkatorium,35.4674064,-82.524955526838,95 Old Shoals Rd,Arden
+110,5107,,,,Fonta Flora Brewery At Whipoorwill Farm,,,6751 NC HWY 126,Nebo
+111,5157,,,,Joymongers Brewing Co.,36.0787189591837,-79.7938094489796,576 N Eugene St,Greensboro
+112,5268,,,,The Laboratory Mill Brewery,,,848 Southfork Rd,Lincolnton
+113,5001,,,,1323 R & D,,,1323 Capital Blvd 1323 R and D,Raleigh
+114,5008,,,,Angry Troll Brewing / 222 Public House,,,222 E Main St Ste U2,Elkin
+115,5010,,,,Archetype Brewing,,,265 Haywood Rd,Asheville
+116,5013,,,,Ass Clown Brewing Co,,,10620 Bailey Rd Ste E,Cornelius
+117,5017,,,,Barking Duck Brewing Company,,,4400 Morris Park Dr Ste R,Mint Hill
+118,5020,,,,Bear Creek Brews,,,10538 Nc 902 Hwy,Bear Creek
+119,5023,,,,Beer Army,,,,New Bern
+120,5026,,,,Big Boss Brewing Co,,,1249 Wicker Dr Ste A,Raleigh
+121,5004,,,,34 Degree North Experiment Station,33.9727036424402,-78.3863651732097,4802 Main St,Shallotte
+122,5005,,,,3rd Degree Brewhouse,35.5914556,-78.794223,1625 N Main St,Fuquay Varina
+123,5006,,,,3rd Rock Brewing Company,35.0693987667722,-77.3674928534173,134 Industrial Park Dr,Trenton
+124,5014,,,,Aviator Brewing Company,35.6169598306954,-78.807389599939,209 Technology Park Ln,Fuquay Varina
+125,5030,,,,Birdsong Brewing Co.,35.2306075317639,-80.8270427213458,1016 N Davidson St,Charlotte
+126,5031,,,,Black Creek Brewery,36.3936208490969,-78.9814636740729,111 Depot St,Roxboro
+127,5060,,,,Bright Light Brewing Company,,,444 W Russel St Ste 102,Fayetteville
+128,5062,,,,Broomtail Craft Brewery,,,6404 Amsterdam Way Ste 100,Wilmington
+129,5069,,,,Burial Beer Co Forestry Camp,,,,Asheville
+130,5075,,,,Catawba Brewing Co - Asheville,,,63 Brook St Ste 1,Asheville
+131,5076,,,,Catawba Brewing Co - Charlotte,,,933 Louise Ave Ste 105,Charlotte
+132,5078,,,,Cavern Brewing At Lowes Foods,,,1381 Old Mill Cir Ste 200,Winston Salem
+133,5080,,,,Clouds Brewing,,,1233 Front St Ste E,Raleigh
+134,5082,,,,Commoners Brewing Company,,,1048 Copperfield Blvd Ste 101,Concord
+135,5036,,,,Blue Mountain Pizza and Brew Pub,35.7084955262465,-82.5593445733107,55 N Main St,Weaverville
+136,5039,,,,Bombshell Beer Company,35.6584182505842,-78.8358893183952,120 Quantum Dr,Holly Springs
+137,5041,,,,Boojum Brewing Company,35.5257480367708,-82.9938365724951,357 Dayton Dr,Waynesville
+138,5042,,,,Boondocks Brewing,36.3994145918367,-81.4913356734694,302 S Jefferson Ave,West Jefferson
+139,5043,,,,Booneshine Brewing Company,36.222104,-81.645208,465 Industrial Park Dr.,Boone
+140,5046,,,,Brevard Brewing Co,35.2319789,-82.7303593,63 E Main St,Brevard
+141,5070,,,,Cabarrus Brewing Company,35.4157357821076,-80.6060002786602,329 McGill Ave NW,Concord
+142,5079,,,,Check Six Brewing Co,33.952339,-78.0477587,5130 Southport Supply Rd SE,Southport
+143,5083,,,,Compass Rose,35.883411,-78.582171,"3201 Northside Dr, Ste. 101",Raleigh
+144,5085,,,,Crystal Coast Brewing Company LLC,34.7210521923077,-76.7113740769231,702 Arendell St,Morehead City
+145,5086,,,,Currahee Brewing Company,35.1875471800016,-83.3719478402946,100 Lakeside Dr,Franklin
+146,5087,,,,D9 Brewing Company,,,11138 Treynorth Dr Ste C,Cornelius
+147,5088,,,,Deep River Brewing Company,,,700 W Main St Ste 102,Clayton
+148,5089,,,,Dingo Dog Brewing Co,,,,Carrboro
+149,5091,,,,Divine Barrel Brewing,,,3701 N Davidson St Ste 203,Charlotte
+150,5092,,,,Double Barley Brewing,,,3174 US Highway 70 W,Smithfield
+151,5095,,,,Durty Bull Brewing Co.,,,206 Broadway St Ste 104,Durham
+152,5096,,,,Ecusta Brewing Co,,,49 Pisgah Hwy Ste 3,Pisgah Forest 
+153,5097,,,,Ecusta Brewing Co - Drift Taproom,,,49 Pisgah Hwy,Pisgah Forest
+154,5102,,,,Fiddlin' Fish Brewing Company,,,772 N Trade St.,Winston Salem
+155,5114,,,,Free Range Brewing,,,2320 N Davidson St Unit D,Charlotte
+156,5122,,,,Ghostface Brewing Company,,,427 E Statesville Ave Ste 100,Mooresville
+157,5093,,,,Dry County Brewing,35.9158912,-82.063578,585 Oak Ave,Spruce Pine
+158,5094,,,,Duck Rabbit Craft Brewery,35.5980644,-77.591863,4519 West Pine St,Farmville
+159,5100,,,,Eluvium Brewing Co.,35.6974141411376,-82.561573697509,11 Florida Ave,Weaverville
+160,5103,,,,Flat Top Mountain Brewery,36.165102561231,-81.8665760187748,567 Main St E,Banner Elk
+161,5108,,,,Foothills Brewing Co,36.0481642621951,-80.3268051463415,3800 Kimwell Dr,Winston Salem
+162,5111,,,,Fortnight Brewing Company,35.8057623142808,-78.9113371364432,211 Powers Ferry Rd,Cary
+163,5116,,,,Frog Level Brewing Company,35.4929673012807,-82.9917807217592,56 Commerce St,Waynesville
+164,5124,,,,Gizmo Brew Works,35.8961171942153,-78.7451357780827,5907 Triangle Dr,Raleigh
+165,5125,,,,Good Hops Brewing LLC,34.0408072094185,-77.9038203981021,811 Harper Ave,Carolina Beach
+166,5127,,,,Granite Falls Brewing Co.,35.7894173,-81.4285158,47 Duke St,Granite Falls
+167,5130,,,,Habitat Brewing Co,35.5986648,-82.5533973,174 Broadway St,Asheville
+168,5133,,,,Hayesville Brewing Co,,,1568 Highway 64 W,Hayesville
+169,5136,,,,Hickory Nut Gorge Brewery,,,615 Bottemless Pools Rd,Lake Lure
+170,5137,,,,High Branch Brewing Co,,,325 McGill Ave NW Ste 148,Concord
+171,5143,,,,Homeplace Beer Co,,,6 South Main Street Area C,Burnsville
+172,5144,,,,HOOTS Beer Co.,,,840 Mill Works St,Winston Salem
+173,5145,,,,HopFly Brewing Company,,,1147 Falls Rd Suite 121,Rocky Mount
+174,5155,,,,Jolly Roger Brew,,,236 Raceway Dr Ste 12,Mooresville
+175,5161,,,,Koi Pond Brewing Co,,,1107 Falls Rd,Rocky Mount
+176,5167,,,,Liberty Brewery & Grill,,,914 Mall Loop Rd,High Point
+177,5174,,,,"Lost Province Brewing Company, LLC",,,130 N. Depot Street PO Box 614,Boone
+178,5139,,,,Hillman Beer,35.5139103,-82.520631,25 Sweeten Creek Rd,Asheville
+179,5140,,,,Hi-Wire Brewing Big Top Production Facility,35.5702055141848,-82.5456631071331,2 Huntsman Pl,Asheville
+180,5146,,,,Hoppy Trout Brewing Company,35.2016188,-83.8165709,911 Main St,Andrews
+181,5163,,,,Lazy Hiker Brewing Co.,35.1813336326531,-83.3828255,188 W Main St,Franklin
+182,5176,,,,Lynnwood Brewing Concern,35.8078806132214,-78.6243080737313,1053 E Whitaker Mill Rd Ste 101,Raleigh
+183,5178,,,,Mad County Brewing,35.7977289749748,-82.6858548433499,45 N Main St,Marshall
+184,5179,,,,Mad Mole Brewing LLC,,,6309 Boathouse Rd Ste C,Wilmington
+185,5183,,,,Mica Town Brewing,,,25 Brown Dr,Marion
+186,5186,,,,Mills River Brewery,,,330 Rockwood Rd Ste 103,Arden
+187,5189,,,,Morgan Ridge Vineyards & Brewhouse,,,486 John Morgan Rd,Gold Hill
+188,5190,,,,Mother Earth Brewing,,,311 N Herritage St,Kinston
+189,5197,,,,NC State Brewery,,,400 Dan Allen Drive Campus Box 7624,Raleigh
+190,5202,,,,New River Brewing,,,9211 NC Hwy 194 N Unit A,Lansing
+191,5210,,,,Oak and Dagger Public House,,,18 Seaboard Ave Ste 150,Raleigh
+192,5214,,,,Olde Hickory Brewery & Amos Howards,,,2828 US Highway 70 SW,Hickory
+193,5215,,,,Ole Dallas Brewery,,,,Dallas
+194,5216,,,,One World Brewing,,,10 Patton Ave Ste 002,Asheville
+195,5222,,,,Peaks and Creeks Brewing Company,,,212 King St Ste B,Brevard
+196,5182,,,,Mason Jar Lager Co.,35.6015909,-78.8026696,341 Broad St # 151,Fuquay Varina
+197,5185,,,,Mill Whistle Brewing,34.7173879891304,-76.6504293369565,1354 Lennoxville Rd,Beaufort
+198,5192,,,,Mystery Brewing Co,36.0695647,-79.1135558,437 Dimmocks Mill Rd Ste 41,Hillsborough
+199,5194,,,,Natty Greene's Brewing Co,36.0646259,-79.7923996,1918 W Gate City Blvd,Greensboro
+200,5199,,,,New Anthem Beer Project,34.2341397142857,-77.9482695918367,116 Dock St,Wilmington
+201,5200,,,,New Belgium Brewing Co,35.5879302,-82.571942933736,21 Craven St,Asheville
+202,5203,,,,New Sarum Brewing,35.6665272792247,-80.468531625012,109 N Lee St,Salisbury
+203,5207,,,,NoDa Brewing Co - NE,35.3342735,-80.7190968,2921 N Tryon St,Charlotte
+204,5208,,,,NoDa Brewing Co - OG,35.2397174285714,-80.8151327142857,2229 N Davidson St,Charlotte
+205,5213,,,,Olde Hickory Brewery - Production,35.7313114,-81.342295024641,2 3rd St SW,Hickory
+206,5218,,,,Other Side of the Moon Brewery / Full Moon Oyster Bar,36.0738908,-80.3912598,1477 River Ridge Dr,Clemmons
+207,5230,,,,Preyer Brewing Company,,,600 A-B Battleground Ave,Greensboro
+208,5233,,,,Railhouse Brewery,,,105 E South St Unit C,Aberdeen
+209,5236,,,,Red Oak Brewing Co,,,6901 Konica Dr,Whitsett
+210,5240,,,,Rock Bottom Brewery- Charlotte,,,401 N Tryon St Ste 100,Charlotte
+211,5241,,,,Salty Turtle Beer Company,,,103 Triton Ln,Surf City
+212,5242,,,,Salud Cerveceria,,,3306-B N Davidson St,Charlotte
+213,5246,,,,Seven Jars Products,,,6148-B Brookshire Blvd,Charlotte
+214,5248,,,,Sierra Nevada Brewing Co,,,100 Sierra Nevada Way,Mills River
+215,5250,,,,Skull Camp Brewing,,,765 Round Peak Church Rd,Mount Airy
+216,5252,,,,Southern Appalachian Brewery,,,822 Locust St Ste 100,Hendersonville
+217,5254,,,,Southern Pines Brewing Company,,,565 Air Tool Dr Ste E,Southern Pines
+218,5256,,,,"Starpoint Brewing, LLC",,,901 Clarence Dr,Chapel Hill
+219,5257,,,,"Starpoint Brewing, LLC / Beer Study",,,2501 University Dr Ste 4,Chapel Hill
+220,5261,,,,Sweet Union Brewing,,,13717 E Independence Blvd,Indian Trail
+221,5263,,,,Sycamore Brewing,,,2161 Hawkins St Ste A,Charlotte
+222,5267,,,,The Glass Jug,,,5410 Nc Highway 55 Ste V,Durham
+223,5231,,,,Primal Brewery,35.4360323569646,-80.8438406803482,16432 Old Statesville Rd,Huntersville
+224,5239,,,,Rivermen Brewing Co,35.240249,-81.015546,1500 River Dr,Belmont
+225,5247,,,,Shortway Brewing Company,34.789988406904,-76.859456691807,230 Chatham Street,Newport
+226,5249,,,,Skull Camp Brewing,36.2833978851372,-80.8524565963092,1980 N Bridge St,Elkin
+227,5251,,,,Small Batch Beer Co,36.0998405714286,-80.2465619387755,241 W 5th St,Winston Salem
+228,5259,,,,Sub Noir Brewing Company,35.8091103,-78.6231748,2039 Progress Ct,Raleigh
+229,5262,,,,Sweeten Creek Brewing,35.5139103,-82.520631,1127 Sweeten Creek Rd,Asheville
+230,5264,,,,Tarboro Brewing Company,35.8985564050046,-77.5355731668211,526 N Main St,Tarboro
+231,5265,,,,Tek Mountain Brewing,34.242240420821,-77.8239016974168,1844 Sir Tyler Dr,Wilmington
+232,5271,,,,The Other Side of the Moon - Jamestown,35.992845973017,-79.9376516451772,103 W Main St,Jamestown
+233,5272,,,,The Sycamore Brewing Cannery,35.246262,-80.825601,401 W 24th St,Charlotte
+234,5274,,,,Thirsty Nomad Brewing,,,4402 Stuart Andrew Blvd Ste A,Charlotte
+235,5280,,,,Top Of The Hill Restaurant and Brewery,,,100 E Franklin St Ste F,Chapel Hill
+236,5286,,,,Turgua Brewing Co,,,27 Firefly Hollow Dr,Fairview
+237,5291,,,,UpCountry Brewing,,,1042 Haywood Rd,Asheville
+238,5292,,,,Uptown Brewing Co,,,418 Evans St,Greenville
+239,5297,,,,Waterman's Brewing Co,,,1610 Pavillion Pl,Wilmington
+240,5307,,,,Wicked Weed Brewing,,,145 Jacob Holme Way,Candler
+241,5311,,,,Wise Man Brewing,,,826 Angelo Brothers Ave,Winston-Salem
+242,5312,,,,Wooden Robot,,,1440 S Tryon St Ste 110,Charlotte
+243,5317,,,,Zebulon Artisan Ales,,,8 Merchents Alley,Weaverville
+244,5276,,,,Three Spirits Brewery,35.1718311020408,-80.8784230204082,5046 Old Pineville Rd Ste 200,Charlotte
+245,5284,,,,Trollingwood Taproom & Brewery,35.60994375,-77.37544525,707 Dickinson Ave,Greenville
+246,5295,,,,Vicious Fishes Brewery,35.507541,-78.749408,219 Fish Dr,Angier
+247,5299,,,,Weeping Radish Farm Brewery,36.253775,-75.891944,6810 Caratoke Hwy,Grandy
+248,5300,,,,Westbend Winery and Brewery,36.0886822750035,-80.5045916479914,5394 Williams Rd,Lewisville
+249,5301,,,,Whistle Hop Brewing Company,35.523144129188,-82.416930726649,1288 Charlotte Hwy,Fairview
+250,5305,,,,White Street Brewing Company - Production Facility,36.0396084799379,-78.4861061647568,400 Park Ave,Youngsville
+251,5308,,,,Wicked Weed Funk House,35.4674064,-82.524955526838,95 Old Shoals Rd,Arden
+252,5314,,,,Wrightsville Beach Brewery,34.210452,-77.836851,6201 Oleander Dr,Wilmington
+253,5032,,,,Blind Squirrel Brewery,,,4716 South US Highway 19 E Suite B,Plumtree
+254,5048,,,,Brewery 99,,,417 Broad St Ste F,New Bern
+255,5066,,,,Bull City Burger And Brewery,,,107 E Parrish St Ste 105,Durham
+256,5007,,,,Andrews Brewing Co At Calaboose Cellars,35.199581640194,-83.8148779865557,575 Aquone Rd,Andrews
+257,5022,,,,Beech Mountain Brewing Company,36.1681958415096,-81.8733560040101,1007 Beech Mountain Pkwy,Beech Mountain
+258,5059,,,,Brice's Brewing Company,35.7249310765714,-78.6587157735483,1822 Garner Station Blvd,Raleigh
+259,5063,,,,Brouwerij Cursus Keme,35.5743884286413,-82.5257283663686,155 Thompson St,Asheville
+260,5065,,,,Brueprint Brewing Company LLC,35.7088481931982,-78.8501437546017,1229 Perry Rd Ste 101,Apex
+261,5115,,,,French Broad River Brewing Co,,,101 Fairview Rd Ste D,Asheville
+262,5138,,,,Highland Brewing Co,,,12 Old Charlotte Hwy Ste H,Asheville
+263,5169,,,,Little City Brewing Co.,,,400 W North St Ste 120,Raleigh
+264,5180,,,,Makai Brewing Company,,,5850 Ocean Hwy W,Ocean Isle Beach
+265,5209,,,,Northern Outer Banks Brewing Company,,,520 Old Stoney Rd,Corolla
+266,5221,,,,Oyster House Brewing Co.,,,625 Haywood Rd,Asheville
+267,5258,,,,Steel String Craft Brewery,,,106 S Greensboro St Ste A,Carrboro
+268,5316,,,,York Chester Brewing Company,,,1500 River Dr Ste 250,Belmont
+269,5232,,,,Quick Trigger Brewing Company,36.2857593,-76.9863065,118 Main St W,Ahoskie
