@@ -47,10 +47,10 @@ var info = L.control({
 info.onAdd = function() {
   var div = L.DomUtil.create("div", "legend");
   return div;
-};
+}
 
-// Add the info legend to the map
-info.addTo(myMap);
+// add legend
+info.addTo(myMap)
 
 // Initialize an object containing icons for each layer group
 var icons = {
@@ -98,8 +98,11 @@ d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
 
       // add marker to map
       newMarker.addTo(layers[type])
-      var link = `<a href="${dat.website_url}" target="_blank">${dat.website_url}</a>`
-      newMarker.bindPopup(`${dat.name}<br>${link}`)
+      if (dat.website_url) {
+        var link = `<br><a href="${dat.website_url}" target="_blank">${dat.website_url}</a><br>`
+        }
+      else {var link ='<br>'}
+      newMarker.bindPopup(`${dat.name}${link}Google Rating: ${dat.google_rating}`)
     }
     else {console.log(dat.name)}
   });
@@ -117,3 +120,25 @@ function updateLegend(typeCount) {
     "<p class='large-breweries'>Large Breweries: " + typeCount.LARGE + "</p>",
   ].join("");
 }
+
+// Assign the range slider to a variable
+var rangeSlide =  $(".js-range-slider");
+rangeSlide.ionRangeSlider({
+    type: "double",
+    min: 1990,
+    max: 2020,
+    from: 1990,
+    to: 2020,
+    grid: true,
+    grid_snap: true,
+    skin: "flat"
+});
+
+
+rangeSlide.on("change", function () {
+  var inp = $(this);
+  var from = inp.data("from");
+  var to = inp.data("to");
+
+  console.log(from, to);
+});
