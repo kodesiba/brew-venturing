@@ -111,32 +111,32 @@ rangeSlide.on("change", function () {
   console.log(from, to);
 
   // pull in data and create map layers
-d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
-  // create counter object
-  var typeCount = {
-    BREWERIES: 0
-  }
-
-  brewdat.forEach(dat => {
-    if ( from <= +dat.YearEstablished && +dat.YearEstablished <= to)
-    // set variable for type
-    // make marker if location exists
-    if (dat.latitude) {
-      typeCount['BREWERIES'] ++;
-      var newMarker = L.marker([dat.latitude, dat.longitude], {
-        icon: icons['BREWERIES']});
-
-      // add marker to map
-      newMarker.addTo(layers['BREWERIES'])
-      if (dat.URL) {
-        var link = `<br><a href="${dat.URL}" target="_blank">${dat.URL}</a><br>`
-        }
-      else {var link ='<br>'}
-      newMarker.bindPopup(`${dat.CompanyName}${link}Google Rating: ${dat.google_rating}`)
+  d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
+    // create counter object
+    var typeCount = {
+      BREWERIES: 0
     }
+
+    brewdat.forEach(dat => {
+      if ( from <= +dat.YearEstablished && +dat.YearEstablished <= to)
+      // set variable for type
+      // make marker if location exists
+      if (dat.latitude) {
+        typeCount['BREWERIES'] ++;
+        var newMarker = L.marker([dat.latitude, dat.longitude], {
+          icon: icons['BREWERIES']});
+
+        // add marker to map
+        newMarker.addTo(layers['BREWERIES'])
+        if (dat.URL) {
+          var link = `<br><a href="${dat.URL}" target="_blank">${dat.URL}</a><br>`
+          }
+        else {var link ='<br>'}
+        newMarker.bindPopup(`${dat.CompanyName}${link}Google Rating: ${dat.google_rating}`)
+      }
+    });
+    
+    // update legend
+    updateLegend(typeCount);
   });
-  
-  // update legend
-  updateLegend(typeCount);
-});
 });
