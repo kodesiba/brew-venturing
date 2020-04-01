@@ -14,7 +14,7 @@ Base = automap_base()
 engine = create_engine('sqlite:///static/data/bredat.sqlite')
 Base.prepare(engine, reflect=True)
 
-Breweries = json.loads(pd.read_sql("SELECT * FROM breweries ORDER BY NAME",con=engine).to_json(orient='records'))
+Breweries = json.loads(pd.read_sql("SELECT * FROM business ORDER BY id",con=engine).to_json(orient='records'))
 
 Localbusinesses = json.loads(pd.read_sql("SELECT * FROM localbusinesses ORDER BY id",con=engine).to_json(orient='records'))
 
