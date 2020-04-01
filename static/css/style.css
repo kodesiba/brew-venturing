@@ -1,6 +1,17 @@
 body {
-	  background-color: #e6f2ff;
+	  background-color: #434E52;
 }
+
+nav {
+    background-color: #5B8C85;
+}
+
+p {
+  color:#ffffff;
+}
+
+
+
 
 .box {
   min-height: 500px;
@@ -11,11 +22,15 @@ body {
 }
 
 .boxSmall {
-  min-height: 400px;
+  min-height: 200px;
   padding: 5px;
   margin: 5px;
   font-weight: 800;
   color: #4d4d4d;
+}
+
+.bluegreen {
+  background:#5B8C85;
 }
 
 .white {
