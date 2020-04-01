@@ -24,18 +24,6 @@ body,
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.legend .brewpubs {
-  color: green;
-}
-
-.legend .micro-breweries {
+.legend .breweries {
   color: red;
-}
-
-.legend .regional-breweries {
-  color: darkblue;
-}
-
-.legend .large-breweries {
-  color: purple;
 }
