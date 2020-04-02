@@ -8,10 +8,7 @@ var light = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?ac
 
 // Initialize all of the LayerGroups we'll be using
 var layers = {
-  BREWPUB: new L.LayerGroup(),
-  MICRO: new L.LayerGroup(),
-  REGIONAL: new L.LayerGroup(),
-  LARGE: new L.LayerGroup()
+  BREWERIES: new L.LayerGroup()
 };
 
 // Create the map with our layers
@@ -20,19 +17,13 @@ var myMap = L.map("map-id", {
   zoom: 8,
   layers: [
     light,
-    layers.BREWPUB,
-    layers.MICRO,
-    layers.REGIONAL,
-    layers.LARGE
+    layers.BREWERIES
   ]
 });
 
 // Create an overlays object to add to the layer control
 var overlays = {
-  "Brewpubs": layers.BREWPUB,
-  "Micro Breweries": layers.MICRO,
-  "Regional Breweries": layers.REGIONAL,
-  "Large Breweries": layers.LARGE
+  "Breweries": layers.BREWERIES
 };
 
 // Create a layer control, pass in the baseMaps and overlays. Add the layer control to the map
@@ -54,25 +45,10 @@ info.addTo(myMap)
 
 // Initialize an object containing icons for each layer group
 var icons = {
-  BREWPUB: L.ExtraMarkers.icon({
-    icon: "ion-beer",
-    iconColor: "white",
-    markerColor: "green"
-  }),
-  MICRO: L.ExtraMarkers.icon({
+  BREWERIES: L.ExtraMarkers.icon({
     icon: "ion-beer",
     iconColor: "white",
     markerColor: "red"
-  }),
-  REGIONAL: L.ExtraMarkers.icon({
-    icon: "ion-beer",
-    iconColor: "white",
-    markerColor: "blue-dark"
-  }),
-  LARGE: L.ExtraMarkers.icon({
-    icon: "ion-beer",
-    iconColor: "white",
-    markerColor: "purple"
   })
 };
 
@@ -80,31 +56,25 @@ var icons = {
 d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
   // create counter object
   var typeCount = {
-    BREWPUB: 0,
-    MICRO: 0,
-    REGIONAL: 0,
-    LARGE: 0
+    BREWERIES: 0
   }
 
   brewdat.forEach(dat => {
     // set variable for type
-    var type = dat.brewery_type.toUpperCase();
-    
     // make marker if location exists
     if (dat.latitude) {
-      typeCount[type] ++;
+      typeCount['BREWERIES'] ++;
       var newMarker = L.marker([dat.latitude, dat.longitude], {
-        icon: icons[type]});
+        icon: icons['BREWERIES']});
 
       // add marker to map
-      newMarker.addTo(layers[type])
-      if (dat.website_url) {
-        var link = `<br><a href="${dat.website_url}" target="_blank">${dat.website_url}</a><br>`
+      newMarker.addTo(layers['BREWERIES'])
+      if (dat.URL) {
+        var link = `<br><a href="${dat.URL}" target="_blank">${dat.URL}</a><br>`
         }
       else {var link ='<br>'}
-      newMarker.bindPopup(`${dat.name}${link}Google Rating: ${dat.google_rating}`)
+      newMarker.bindPopup(`${dat.CompanyName}${link}Google Rating: ${dat.google_rating}`)
     }
-    else {console.log(dat.name)}
   });
   
   // update legend
@@ -114,10 +84,7 @@ d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
 // Update the legend's innerHTML with the last updated time and station count
 function updateLegend(typeCount) {
   document.querySelector(".legend").innerHTML = [
-    "<p class='brewpubs'>Brewpubs: " + typeCount.BREWPUB + "</p>",
-    "<p class='micro-breweries'>Micro Breweries: " + typeCount.MICRO + "</p>",
-    "<p class='regional-breweries'>Regional Breweries: " + typeCount.REGIONAL + "</p>",
-    "<p class='large-breweries'>Large Breweries: " + typeCount.LARGE + "</p>",
+    "<p class='breweries'>Breweries: " + typeCount.BREWERIES + "</p>",
   ].join("");
 }
 
@@ -139,6 +106,37 @@ rangeSlide.on("change", function () {
   var inp = $(this);
   var from = inp.data("from");
   var to = inp.data("to");
+  layers['BREWERIES'].clearLayers();
 
   console.log(from, to);
+
+  // pull in data and create map layers
+  d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
+    // create counter object
+    var typeCount = {
+      BREWERIES: 0
+    }
+
+    brewdat.forEach(dat => {
+      if ( from <= +dat.YearEstablished && +dat.YearEstablished <= to)
+      // set variable for type
+      // make marker if location exists
+      if (dat.latitude) {
+        typeCount['BREWERIES'] ++;
+        var newMarker = L.marker([dat.latitude, dat.longitude], {
+          icon: icons['BREWERIES']});
+
+        // add marker to map
+        newMarker.addTo(layers['BREWERIES'])
+        if (dat.URL) {
+          var link = `<br><a href="${dat.URL}" target="_blank">${dat.URL}</a><br>`
+          }
+        else {var link ='<br>'}
+        newMarker.bindPopup(`${dat.CompanyName}${link}Google Rating: ${dat.google_rating}`)
+      }
+    });
+    
+    // update legend
+    updateLegend(typeCount);
+  });
 });
