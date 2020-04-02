@@ -70,7 +70,7 @@ d3.json("http://127.0.0.1:5000/api/v1.0/breweries", function(brewdat) {
       // add marker to map
       newMarker.addTo(layers['BREWERIES'])
       if (dat.URL) {
-        var link = `<br><a href="${dat.URL}" target="_blank">${dat.URL}</a><br>`
+        var link = `<br><a href="https://www.${dat.URL}" target="_blank">${dat.URL}</a><br>`
         }
       else {var link ='<br>'}
       newMarker.bindPopup(`${dat.CompanyName}${link}Google Rating: ${dat.google_rating}`)
@@ -129,7 +129,7 @@ rangeSlide.on("change", function () {
         // add marker to map
         newMarker.addTo(layers['BREWERIES'])
         if (dat.URL) {
-          var link = `<br><a href="${dat.URL}" target="_blank">${dat.URL}</a><br>`
+          var link = `<br><a href="https://www.${dat.URL}" target="_blank">${dat.URL}</a><br>`
           }
         else {var link ='<br>'}
         newMarker.bindPopup(`${dat.CompanyName}${link}Google Rating: ${dat.google_rating}`)
