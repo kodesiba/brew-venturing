@@ -10,8 +10,13 @@ p {
   color:#ffffff;
 }
 
+td {
+  text-align: center;   
+}
 
-
+th {
+  text-align: center;   
+}
 
 .box {
   min-height: 500px;
@@ -41,13 +46,6 @@ p {
   background: #f0f0f0;
 }
 
-
-.table {
-   margin: auto;
-   width: 50% !important; 
-  border: 1px solid black;
-}
-
 .activeCell {
   border: 3px solid blue;
 }
@@ -58,4 +56,10 @@ p {
 
 h6 {
   text-align: center;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
 }
