@@ -13,5 +13,6 @@ app.get('/dtable', (req, res) => res.sendFile(__dirname + "/templates/dtable.htm
 // app.get('/selbrew', (req, res) => res.sendFile(__dirname + "/templates/selbrew.html"))
 // history page
 app.get('/history', (req, res) => res.sendFile(__dirname + "/templates/history.html"))
+app.get('/history2', (req, res) => res.sendFile(__dirname + "/templates/history_graph.html"))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

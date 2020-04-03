@@ -63,3 +63,23 @@ h6 {
   stroke: steelblue;
   stroke-width: 2px;
 }
+
+#history-text {
+  /* background: white; */
+  position: relative;
+  top: 10px;
+  right: 10px;
+  bottom: 50px;
+  border: 3px solid transparent;
+  padding: 15px;
+  border-color: black 
+}
+​
+.bar {
+  fill: red
+}
+
+.titlebox{
+  text-align: center;
+  margin-top: 2%;
+}

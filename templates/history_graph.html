@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>NC's Brewing History</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../static/css/style.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <h3 id="imap">Brew-Venturing/History</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+    
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="/history">History</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="/imap">Brewery Map</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="/dtable">Data Table</a>
+            </li>
+    
+          </ul>
+    
+         </div>
+        </nav>
+
+        <!--main box for summary-->
+        <div class="container-fluid bg-light">
+            <div class="row justify-content-around">
+                <div class="col-12" id="history-body">
+                    <h2 class="text-dark"><strong>A Brief History of Brewing in the Tar Heel State</strong></h2>
+                    <hr>
+                   
+                    <div id="history-text">
+                        <p class="text-dark">Over the past thirty years, the North Carolina has turned into one of the best states in the country for beer drinkers. Since 1990, over 260 new breweries have appeared across the state, from the Outer Banks, to the piedmont, and all the way up to the Blue Ridge mountains. North Carolina boasts the city with the second most breweries per capita in the United States – Asheville, NC has seventeen breweries for every fifty thousand residents. We decided to take a closer look at what makes the Tar Heel State such an attractive location for beer brewers. </p>
+                        <p class="text-dark">Although some breweries in North Carolina claim to be able to trace their roots back to the 1860’s, we started tracking brewery growth in 1990. One of the oldest breweries, Red Oak Brewing, opened its doors in 1991, and it now employs fifty workers in its vast facilities off I-40 in Whitsett, NC. The growth of brewing was slow, at first – in the first ten years we analyzed, the number of breweries in the state had only grown from four in 1990 to fifteen in 2001. Many of these, such as Green Man Brewing and Catawba Brewing, were founded in Asheville, but other breweries soon started popping up around the state. In 1996, Top of the Hill Restaurant & Brewery began brewing beer in Chapel Hill, and in 2003, Big Boss Brewing Co. opened in Raleigh. In 2004, Natty Greene’s Brewing Co. opened in Greensboro, and it has since grown to employ 50+ people across its facilities. By 2010, North Carolina hosted forty-one breweries. </p>
+                        <p class="text-dark">In the last ten years, brewing has exploded across the state. From 2010 to 2014, fifty-seven new breweries opened – more new breweries than in the previous twenty years combined. From 2014-2018, an average of forty new breweries opened every year. The expansion of brewing has spread new and interesting types of craft beers across the state. There are now breweries in ninety-eight different cities in the Tar Heel State, making refreshing craft brews readily available to millions of thirsty North Carolinians.</p>
+                    </div>  
+                </div>
+                <div class="col-12">
+                    <!-- interactive graphs -->
+                    <h3 class="text-dark titlebox"><strong>The Growth of Brewing in NC</strong></h3>
+                </div>
+                <div class="col-12">
+                    <div width = "50%" height = "auto" style="float:left">
+                        <svg id="bar-chart" width="100%" height="300px"></svg>
+                    </div>
+                    
+                    <div width = "50%" height = "auto" style="float:right">
+                        <svg id="line-chart" width="100%" height="300px"></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- D3 -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+
+
+        <!-- Leaflet JavaScript -->
+        <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+        crossorigin=""></script>
+        
+        <!-- source of JavaScript code -->
+        <script type="text/javascript" src="static/js/history-line-chart.js"></script>
+        <script type="text/javascript" src="static/js/history-app.js"></script>
+
+    </body>
+</html>
