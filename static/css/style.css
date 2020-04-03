@@ -74,12 +74,13 @@ h6 {
   padding: 15px;
   border-color: black 
 }
-​
-.bar {
-  fill: red
-}
 
 .titlebox{
   text-align: center;
   margin-top: 2%;
+}
+.axisText {
+  font-weight: bold;
+  fill: black;
+  text-anchor: middle;
 }

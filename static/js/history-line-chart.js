@@ -1,16 +1,22 @@
 // set up SVG container
-var margin = {top: 20, right: 10, bottom: 35, left: 30};
+var margin = {top: 25, right: 25, bottom: 25, left: 50};
 
-var width = 500 - margin.left - margin.right;
-var height = 300 - margin.top - margin.bottom;
+var docWidth = document.documentElement.clientWidth;
+var docHeight = document.documentElement.clientHeight;
+
+var width = (docWidth / 2.1) - margin.left - margin.right;
+var height = (docHeight / 2.1) - margin.top - margin.bottom;
+
+var SVGwidth = (docWidth / 2.1) + margin.left + margin.right;
+var SVGheight = (docHeight / 2.1) + margin.top + margin.bottom;
 
 var svg = d3.select("#line-chart")
-.append("svg")
-.attr("width", width + margin.left + margin.right)
-.attr("height", height + margin.top + margin.bottom)
+    .append('svg')
+    .attr('width',SVGwidth)
+    .attr('height',SVGheight)
   
-var chartGroup = svg.append("g")
-  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var lineGroup = svg.append("g")
+  .attr("transform", "translate(" + (margin.left) + "," + margin.top + ")");
 
 var parseTime = d3.timeParse("%Y");
 
@@ -44,21 +50,37 @@ d3.json("http://127.0.0.1:5000/api/v1.0/history").then(function(cumulative) {
         .y(data => yLinearScale(data.cumulativeCount));
 
     // Append an SVG path and plot its points using the line function
-    chartGroup.append("path")
+    lineGroup.append("path")
         .attr("d", drawLine(cumulative))
         .classed("line",true);
 
     // Append an SVG group element to the chartGroup, create the left axis inside of it
-    chartGroup.append("g")
+    lineGroup.append("g")
         .classed("axis", true)
         .call(leftAxis);
 
     // Append an SVG group element to the chartGroup, create the bottom axis inside of it
     // Translate the bottom axis to the bottom of the page
-    chartGroup.append("g")
+    lineGroup.append("g")
         .classed("axis", true)
         .attr("transform", `translate(0, ${height})`)
-        .call(bottomAxis);
+        .call(bottomAxis);   
+    
+    
+    // Create axes labels
+    lineGroup.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x", 0 - (height / 2))
+        .attr("dy", "1em")
+        .attr("class", "axisText")
+        .text("Cumulative Number of Breweries Founded");
+
+    lineGroup.append("text")
+        .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
+        .attr("class", "axisText")
+        .text("Year");
+  
 }).catch(function(error) {
     console.log(error);
 })  
